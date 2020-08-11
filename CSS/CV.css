@@ -1,0 +1,230 @@
+* {
+	margin: 0.2px;
+	padding: 0.2px;
+	font-family: 'arial';
+}
+
+body {	
+  line-height: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+section a i {
+	margin-top: 205%;
+}
+
+a:hover {
+  color: black;
+}
+
+article {
+  padding:0 1em;
+}
+
+section{
+  margin: 1em;
+  padding: 1em;
+}
+
+header, main, footer {
+  margin: 0 auto;
+}
+
+header {
+	margin-top: 6.9%;
+	height: 35%;
+	width: 100%;
+  	background-image: url('../Images/cvimage.jpg');
+  	opacity: 0.8;
+  	background-size: cover;
+    text-align: center;
+  	color: black;
+}
+
+section {
+	margin-left: -10%;
+	width: 120%;
+}
+
+header section {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+header section h1 {
+	background-color: grey;
+	opacity: 0.7;
+	margin-left: 38%;
+	margin-top: 40%;
+	font-size: 40px;
+}
+
+.smallimg {
+	width: 15%;
+	height: 15%;
+	margin-top: -18%;
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 1em 0;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+h3, h4 {
+  font-weight: bold;
+}
+
+main {
+  max-width: 1140px;
+}
+
+main section:not(:last-child) {
+  border-bottom: 1.6px solid black;
+}
+
+.course {
+	margin-left: 40%;
+}
+
+.course, .skills {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.school span, .job-title span {
+  color: #889499;
+  text-decoration: underline;
+}
+
+.smallimg img {
+	margin-top: -15%;
+}
+
+footer {
+ padding: 1em 1.5em;
+ background: #A7B8BF;
+ color: white;
+ text-align: right;
+}
+
+.language {
+	margin-top: 2%;
+	margin-left: 8%;
+}
+
+.column ul li p {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.bgdiv {
+	background-size: cover;
+	height: 250vh;	
+}
+
+nav {
+	width: 100%;
+}
+
+.menudiv {
+	margin-top: 0%;
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background-color: gray;
+}
+
+.leftmenudiv {
+	width: 25%;
+	float: left;
+	line-height: 80px;
+}
+
+.leftmenudiv img {
+	margin-left: -6%;
+	margin-top: 6%;
+}
+
+.leftmenudiv h2 {
+	padding-left: 50px;
+	color: black;
+}
+
+.leftmenudiv h2 a:hover {
+	color: white;
+}
+
+.rightmenudiv {
+	float: left;
+	height: 100%;
+	width: 70%
+}
+
+.rightmenudiv ul {
+	float: right;
+	margin-top: 0.1%;
+}
+
+.rightmenudiv ul li {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	line-height: 100px;
+	margin-left: 50px;
+	text-transform: uppercase;
+}
+
+.rightmenudiv ul li a {
+	color: white;
+}
+
+.rightmenudiv ul li a:hover {
+	color: black;
+}
+
+.rightmenudiv ul li:hover {
+	color: black;
+}
+
+.foot {
+	margin-top: 10%;
+	margin-left: 45%;
+	font-size: 40px;	
+}
+
+.foot a {
+	color: black;
+}
+
+.foot h4 {
+	margin-left: -10%;
+	font-size: 17px;
+}
+
+section img {
+	width: 200%;
+	height: 200%;
+}
+
+.newbackone {
+	margin-top: 7%;
+}
+
+.newbacktwo {
+	margin-top: 2%;
+}

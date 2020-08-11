@@ -1,0 +1,174 @@
+* {
+	margin: 0.2px;
+	padding: 0.2px;
+	color: black;
+	text-decoration: none;
+	font-family: arial;  
+}
+
+.bgdiv {
+	background: linear-gradient(rgb(128,128,128,1),rgba(0,0,50,0.5)),url('../Images/back1.jpg');
+	background-size: cover;
+	height: 115vh;
+}
+
+.bgdiv:hover {
+	color: black;
+}
+
+.menudiv {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background-color: grey;
+}
+
+.leftmenudiv {
+	width: 25%;
+	float: left;
+	line-height: 80px;
+}
+
+.leftmenudiv img {
+  margin-left: -6%;
+  margin-top: 6%;
+}
+
+.leftmenudiv h2 {
+	padding-left: 50px;
+	color: black;
+}
+
+.leftmenudiv h2 a:hover {
+	color: white;
+}
+
+.rightmenudiv {
+	float: left;
+	height: 100%;
+	width: 70%
+}
+
+.rightmenudiv ul {
+	float: right;
+}
+
+.rightmenudiv ul li {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	line-height: 100px;
+	margin-left: 50px;
+	text-transform: uppercase;
+}
+
+.rightmenudiv ul li a {
+	color: white;
+}
+
+.rightmenudiv ul li a:hover {
+	color: black;
+}
+
+.rightmenudiv ul li:hover {
+	color: black;
+}
+
+h1 {
+	margin-top: 8%;
+	text-align: center;
+	font-size: 35px;
+}
+
+form {
+	border-top: -51%;
+	margin-top: -290px;
+}
+
+.formdetail {
+	margin-left: 45%;
+}
+
+.forminput {
+	width: 600px;
+	background: transparent;
+	border: none;
+	border-bottom: 1.2px solid maroon;
+	font-size: 25px;
+	margin-bottom: 16px;
+}
+
+::-webkit-input-placeholder {			/*for google chrome browser(::-webkit)*/
+	color: #2E4053;
+	font-weight: bold;
+}
+
+form .submit {
+	background: #E4C1F1;
+	border-color: transparent;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	height: 45px;
+	margin-top: 3px;
+}
+
+form .submit:hover {
+	background-color: cyan;
+	cursor: pointer;
+}
+
+form p1 {
+	font-size: 22px;
+}
+
+.formtext h1 {
+	margin-left: -55%;
+	font-size: 45px;
+	margin-top: 15%;
+}
+
+.formtext h2 {
+	margin-left: 13%;
+	margin-top: 1%;
+}
+
+.genderF {
+	margin-left: 5%;
+}
+
+.genderM {
+	margin-left: 5%;
+}
+
+.footer {
+	margin-top: 2%;
+	font-size: 40px;
+	position: absolute;
+}
+
+.footer ul {
+	margin-left: 600px;
+}
+
+.footer ul li {
+	display: inline-block;
+	margin-left: 20px;	
+}
+
+.footer ul li a {
+	color: white;
+}
+
+.footer ul h4 {
+	font-size: 17px;
+	margin-left: -10%;
+}
+
+select {
+	margin-top: -5%;
+	font-size: 20px;
+	font-weight: bold;
+}

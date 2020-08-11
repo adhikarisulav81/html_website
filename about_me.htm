@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AboutMe</title>
+	<link rel="stylesheet" type="text/css" href="CSS/about_me.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+	<div class="bgdiv">
+		<div class="menudiv">
+			<div class="leftmenudiv">
+				<h2><a href="CV.htm"><img src="Images/selflogo.gif"/></a>
+			</div>
+			<div class="rightmenudiv">
+				<ul>
+					<li><a href="Home.htm">Home</a></li>
+					<li><a href="CV.htm">CV</a></li>
+					<li><a href="newblogs.htm">Blog</a></li>
+					<li><a href="research.htm">Research</a></li>
+					<li><active a href="about_me.htm">About Me</a></li>
+				</ul>				
+			</div>
+		</div>
+		<h1>ABOUT ME / FORM</h1>
+		<div class="formtext">
+			<h1>CONTACT FORM</h1>
+			<h2>GET IN TOUCH WITH US</h2>
+		</div>
+		<div class="formdetail">
+			<form id="formdetail" name="myform" method="post" onsubmit="validateform()">  <!-- method="post means the data in the form are encryted or secured. and method="get"(i.e. by default) means the data is not secured, anyone can see your private content.-->
+			<h2>NAME: *<br></h2> 
+			<p><input type="text" class="forminput" placeholder="Enter your name" name="name" ></p><br>
+			<h2>LOCATION: *<br></h2> 
+			<p><input type="text" class="forminput" placeholder="Enter your location" name="location" ></p><br>
+			<h2>GENDER: *</h2>
+			<p1><input type="radio" class="genderF" name="gender" value="female">Female     
+			<input type="radio" class="genderM" name="gender" value="male">Male</p1><br><br>
+			<h2>CONTACT NUMBER: *<br></h2> 
+			<p><input type="number" class="forminput" placeholder="Enter your contact number" name="contact"></p><br>	
+			<h2>EMAIL ADDRESS: *<br></h2> 
+			<p><input type="email" class="forminput" placeholder="Enter your email address" name="email"></p><br>
+			<h2>MESSAGE OR FEEDBACK: *</h2>
+			<br><br>
+			<p><input type="text" class="forminput" placeholder="Enter a message or feedback" name="message"></p>
+			<p><input type="submit" class="forminput submit" value="SUBMIT FORM"></p>
+		</div>
+	</form>
+	<script>
+		function validateform()
+		{
+			var name=document.forms["myform"]["name"].value;
+			var location=document.forms["myform"]["location"].value;
+			var gender=document.forms["myform"]["gender"].value;
+			var contact=document.forms["myform"]["contact"].value;
+			var email=document.forms["myform"]["email"].value;
+			var message=document.forms["myform"]["message"].value;
+			if (name=="" || location=="" || gender=="" ||contact=="" || email=="" || message=="") {
+				alert("Do not leave any textfield empty. Please fill the form again!!");
+			}else{
+				alert("Thank You!! Your form has been submitted.");
+			}	
+		}
+	</script>
+	<div class="footer">
+			<ul>
+				<li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+				<li><a href="https://www.google.com/" target="_blank"><i class="fab fa-google"></i></a></li>
+				<li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+				<h4>&copy; Copyright 2019. All Rights Reserved</h4>
+			</ul>
+		</div>
+</body>
+</html> 
